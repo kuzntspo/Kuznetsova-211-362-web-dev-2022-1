@@ -47,24 +47,29 @@ body {
   }
 
   /*main*/
-  .preview{
-    width: 50%;
+  .preview__wrapper {
+    padding: 20px 0;
+    display: flex;
   }
 
   .preview_headder{
     padding-top: 60px;
+    font-size: 30px;
     text-align: center;
     color:rgb(7, 6, 5)
-  }
-  .preview_text{
-    width: 500px;
-    text-align: center;
-    background-color:rgba(238, 210, 191, 0.927);
     
   }
   
+  .preview_text{
+    line-height: 2;
+    margin-left: 70px;
+    text-align: center;
+    /*background-color:rgba(238, 210, 191, 0.927);*/
+    width: 600px;
+  }
+  
   .preview_image{
-    border-radius: 40;
+    line-height: 2;
   }
 
   /*foot*/
