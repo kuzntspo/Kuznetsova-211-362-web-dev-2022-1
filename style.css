@@ -1,6 +1,6 @@
 body {
     font-family: "Dancing Script", sans-serif;
-    background-color: rgba(91, 74, 63, 0.927);
+    background-color: rgba(122, 99, 83, 0.927);
   }
   
   * {
@@ -55,22 +55,64 @@ body {
   .preview_headder{
     padding-top: 60px;
     font-size: 30px;
+    margin-right: 130px;
     text-align: center;
     color:rgb(7, 6, 5)
-    
   }
   
   .preview_text{
     line-height: 2;
-    margin-left: 70px;
+    margin-right: 130px;
     text-align: center;
-    /*background-color:rgba(238, 210, 191, 0.927);*/
+    width: 600px;
+  }
+  .preview_text2{
+    line-height: 2;
+    margin-right: 130px;
+    text-align: center;
     width: 600px;
   }
   
-  .preview_image{
-    line-height: 2;
+  .One{
+    margin-top: 10px;
+    vertical-align: top;
+    border-radius: 10px
   }
+
+  .Two{
+    margin-top: 10px;
+    vertical-align: bottom;
+    border-radius: 10px
+
+  }
+
+  table{
+    color: black;
+    width: 50%;
+    border-width: 1px; /* Толщина рамки */
+    border-style: solid; /* Стиль рамки */
+    border-color: rgba(122, 99, 83, 0.927) ;
+    border-radius: 5px;
+    background: rgba(179, 147, 126, 0.927);
+    border: rgba(122, 99, 83, 0.927);
+}
+
+.table{
+    margin-left: 400px;
+    align-items: right;
+}
+
+th {
+    padding: 10px; 
+    border: 1px solid rgba(122, 99, 83, 0.927);
+}
+
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid rgba(122, 99, 83, 0.927);
+    text-align: center;
+}
 
   /*foot*/
   .footer {
