@@ -55,20 +55,18 @@ body {
   .preview_headder{
     padding-top: 60px;
     font-size: 30px;
-    margin-right: 130px;
+    margin-left: 130px;
     text-align: center;
     color:rgb(7, 6, 5)
   }
   
   .preview_text{
-    line-height: 2;
-    margin-right: 130px;
+    margin-left: 170px;
     text-align: center;
     width: 600px;
   }
   .preview_text2{
-    line-height: 2;
-    margin-right: 130px;
+    margin-left: 170px;
     text-align: center;
     width: 600px;
   }
@@ -79,12 +77,6 @@ body {
     border-radius: 10px
   }
 
-  .Two{
-    margin-top: 10px;
-    vertical-align: bottom;
-    border-radius: 10px
-
-  }
 
   table{
     color: black;
@@ -92,14 +84,13 @@ body {
     border-width: 1px; /* Толщина рамки */
     border-style: solid; /* Стиль рамки */
     border-color: rgba(122, 99, 83, 0.927) ;
-    border-radius: 5px;
+    border-radius: 10px;
     background: rgba(179, 147, 126, 0.927);
     border: rgba(122, 99, 83, 0.927);
 }
 
 .table{
-    margin-left: 400px;
-    align-items: right;
+    margin-top: 10px;
 }
 
 th {
